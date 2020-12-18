@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Foody</title>
+        <link rel="icon" href="icon.png">
+    </head>
+    
+    <style>
+        table{
+            color: darkred;
+        }
+        .tengah{
+            text-align: center;
+        }
+    </style>
+    
+    <body>
+        <p>Halo apa kabar?</p>
+        <h1>Selamat Datang di Website Kami</h1>
+        
+        <table border="1" style="border-collapse: collapse;">
+            <tr class="tengah">
+                <td rowspan="2">Nama</td>
+                <td rowspan="2">Pekerjaan</td>
+                <td colspan="2">Gender</td>
+            </tr>
+            <tr class="tengah">
+                <td style="width: 80px">Pria</td>
+                <td style="width: 80px">Wanita</td>
+            </tr>
+            <tr>
+                <td>Levi Ackerman</td>
+                <td>Prajurit</td>
+                <td>✓</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mikasa</td>
+                <td>Ibu rumah tangga</td>
+                <td></td>
+                <td>✓</td>
+            </tr>
+            <tr>
+                <td>Armin</td>
+                <td>Nelayan</td>
+                <td>✓</td>
+                <td></td>
+            </tr>
+        </table>
+        
+        <h3>Pendaftaran</h3>
+        <form method="post">
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>
+                        <input type="text"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>NIM</td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="checkbox" style="margin-left: 22px;">
+                        <label>Pria</label>
+                        <input type="checkbox" style="margin-left: 22px;">
+                        <label>Wanita</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <a href="landingpage.html">
+                            <input type="button" value="submit" style="width: 100%">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
